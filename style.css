@@ -1,0 +1,98 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800,800i|Roboto:300,400,700,900,900i&display=swap');
+
+body {
+  background-color: #fef6fb;
+  font: 'Open Sans', 'sans-serif';
+  color: #e6b2c6;
+  font-size: 20px ;
+}
+
+p {
+  margin: 5px 0 25px 0;
+}
+
+h1, h2, h3 {
+  color:  #d77fa1;
+  font-size: 24px;
+  font-family:'Roboto','sans-serif';
+  font-weight: bold;
+}
+.image_resize {
+  width:120px;
+  height: 120px;
+}
+
+.social-style {
+  text-decoration: none;
+  color: #e6b2c6;
+}
+
+.social-style:hover {
+  color: #4d80e4;
+}
+
+.list-inline {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.container {
+  background-color: white;
+  width: 700px;
+  margin: 24px auto;
+  text-align: center;
+  padding: 20px 24px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+img {
+  margin: 5px 0;
+}
+
+.sociallinks-size {
+  font-size: 50px;
+}
+.footer {
+  margin-bottom: auto;
+}
+
+.button-lightblue {
+  background-color: #d6e5fa;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.button-lightblue:hover {
+  color: white;
+  background-color: #4d80e4;
+}
+.social-padding {
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
